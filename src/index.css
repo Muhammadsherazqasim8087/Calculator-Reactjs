@@ -1,0 +1,59 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(160, 173, 123);
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.main-container{
+  max-width: 350px;
+  background-color: hsl(0, 0%, 50%);
+  overflow: hidden;
+}
+button{
+  width: 70px;
+  height: 70px;
+  border-radius: 15px;
+  border: none;
+  background-color: hsl(0, 0%, 30%);
+  color: white;
+  font-size: 2.3rem;
+}
+button:active{
+  background-color: hsl(0, 0%, 40%);
+
+}
+.button-items{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 10px;
+  padding: 5px 0px;
+}
+.equal{
+  grid-column-start: 3;
+  grid-column-end: 5;
+  width: 100%;
+  background-color: hsl(120, 94%, 34%);
+}
+.input-box{
+  width: 100%;
+  outline: none;
+  border: none;
+  padding: 10px 15px;
+  background-color: hsl(0, 0%, 60%);
+  font-size: 3rem;
+  color: white;
+  border-radius: 10px;
+}
+.clear{
+  background-color: hsl(0, 98%, 40%);
+}
+.delete{
+  background-color: hsl(34, 96%, 60%);
+
+}
